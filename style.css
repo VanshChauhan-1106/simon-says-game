@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right bottom,lightskyblue, violet, pink);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 1.25rem
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #FF595F;
+}
+
+.yellow {
+    background-color: #ffca3a;
+}
+
+.green {
+    background-color: #8ae926;
+}
+
+.blue {
+    background-color: #1982c4;
+}
+
+.flash {
+    background-color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
